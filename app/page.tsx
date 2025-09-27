@@ -5,6 +5,7 @@ import MissedMomentsSection from "@/components/landing/MissedMomentsSection";
 import Benefits from "@/components/landing/Benefits";
 import Testimonial from "@/components/landing/Testimonial";
 import Features from "@/components/landing/Features";
+import CalendarSyncSection from "@/components/landing/CalendarSyncSection";
 import HowItWorks from "@/components/landing/HowItWorks";
 import FAQ from "@/components/landing/FAQ";
 import CTASection from "@/components/landing/CTASection";
@@ -19,6 +20,7 @@ export default function Home() {
       <Benefits />
       <Testimonial />
       <Features />
+      <CalendarSyncSection />
       <HowItWorks />
       <FAQ />
       <CTASection />

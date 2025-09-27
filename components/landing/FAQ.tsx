@@ -5,19 +5,19 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'Brauche ich technisches Vorwissen?',
-    answer: 'Nein, Salonique ist sofort einsatzbereit.',
+    answer: 'Nein, wir kümmern uns um die technische Umsetzung. Die Software ist sofort einsatzbereit.',
   },
   {
     question: 'Funktioniert Salonique mit Treatwell?',
-    answer: 'Ja, wir spiegeln Ihre Treatwell-Buchungen automatisch in Ihr Dashboard.',
+    answer: 'Ja, wir spiegeln Ihre Treatwell-Buchungen automatisch in Ihr Dashboard. Wenn ein Kunde eine Terminanfrage stellt, blocken wir den Termin. Sie können dann die Buchung bestätigen oder ablehnen, ohne Buchungskonflikte.',
   },
   {
     question: 'Kann ich meinen Google/Outlook Kalender verbinden?',
-    answer: 'Ja, mit nur wenigen Klicks.',
+    answer: 'Ja, wir synchronisieren Ihren Google/Outlook Kalender mit Ihrem Dashboard.',
   },
   {
     question: 'Welche Kosten entstehen?',
-    answer: 'Flexible Preise ab 0,25 € pro Gesprächsminute – fair und umsatzbasiert.',
+    answer: 'Schreiben Sie uns eine E-Mail und wir erstellen Ihnen eine Angebot. Sie können die Software kostenlos testen.',
   },
 ];
 
