@@ -23,12 +23,12 @@ export default function MissedMomentsSection() {
           </div>
         </AnimatedSection>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto mb-12">
+        <div className="grid grid-cols-2 gap-4 max-w-4xl mx-auto mb-12">
           {missedMoments.map((moment, index) => (
             <AnimatedSection key={index} delay={index * 0.1}>
-              <div className="flex items-center gap-3 bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors duration-200">
-                <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                <p className="text-gray-700">{moment}</p>
+              <div className="flex items-start gap-2 sm:gap-3 bg-gray-50 rounded-lg p-3 sm:p-4 hover:bg-gray-100 transition-colors duration-200">
+                <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0 mt-2"></div>
+                <p className="text-gray-700 text-sm sm:text-base">{moment}</p>
               </div>
             </AnimatedSection>
           ))}
