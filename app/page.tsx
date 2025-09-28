@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <TrustSection />
       <MissedCallsSection />
+      <TrustSection />
       <MissedMomentsSection />
       <Benefits />
       <Testimonial />

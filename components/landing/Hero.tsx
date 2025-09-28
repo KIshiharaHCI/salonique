@@ -19,7 +19,7 @@ export default function Hero() {
             src="/images/illustration-hero-mobile.jpg"
             alt="Salonique Hero Illustration Mobile"
             fill
-            className="object-cover sm:hidden"
+            className="object-contain sm:hidden"
             priority
           />
           <div className="absolute inset-0 flex items-center justify-center">
