@@ -16,7 +16,7 @@ export default function Hero() {
           />
           {/* Mobile Image */}
           <Image
-            src="/images/illustration-hero-mobile.jpg"
+            src="/images/illustration-hero-mobile-v2.jpg"
             alt="Salonique Hero Illustration Mobile"
             fill
             className="object-contain object-top sm:hidden"
