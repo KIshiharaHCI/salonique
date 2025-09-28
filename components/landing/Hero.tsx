@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="absolute inset-0 flex items-center justify-center">
             <a 
               href="mailto:info@salonique.de" 
-              className="btn-primary inline-block text-xl sm:text-2xl px-8 sm:px-10 py-4 sm:py-5 z-10 shadow-xl"
+              className="btn-primary inline-block text-xl sm:text-2xl px-8 sm:px-10 py-4 sm:py-5 z-10 shadow-xl mt-32 sm:mt-0"
             >
               Kontakt aufnehmen
             </a>
